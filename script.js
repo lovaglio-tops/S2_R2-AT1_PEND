@@ -16,27 +16,18 @@ btnAdicionar.addEventListener("click", () => {
 
         let li = document.createElement("li")
         let buttonLi = document.createElement("button")
-        let checkbox = document.createElement("input")
-        checkbox.type = 'checkbox'
-
+   
         buttonLi.textContent = "Remover"
 
         li.innerText = nomeArmazenado
 
         
-        li.appendChild(checkbox)
         li.appendChild(buttonLi)
 
         let lista = document.getElementById("listaTarefas")
         lista.appendChild(li)
         
-        checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                li.style.color = "green"
-            } else {
-                li.style.color = "black"
-            }
-        })
+        
 
         
         buttonLi.addEventListener("click", () => {
