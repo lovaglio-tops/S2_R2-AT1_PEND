@@ -1,34 +1,12 @@
-let inputTarefa = document.getElementById("inputTarefa")
-let btnAdicionar = document.getElementById("btnAdicionar")
-let mensagem = document.getElementById("mensagem")
+let texto = document.getElementById("texto")
+let btnSuccess = document.getElementById("btnSuccess")
 
-btnAdicionar.addEventListener("click", () => {
 
-    let nomeArmazenado = inputTarefa.value
 
-    if (nomeArmazenado === "") {
-        mensagem.innerText = 'Digite algo!'
-        mensagem.className = 'text-danger fw-bold'
-    } else {
+btnSuccess.addEventListener("click", () => {
 
-        mensagem.innerText = 'Tarefa inserida'
-        mensagem.className = 'text-success fw-bold'
+   texto.innerText = `NãO 👺💣💣💣💣💣💣`
+    
 
-        let li = document.createElement("li")
-        
-   
-        
 
-        li.innerText = nomeArmazenado
-
-        
-        
-
-        let lista = document.getElementById("listaTarefas")
-        lista.appendChild(li)
-        
-        
-
-        
-    }
 })
