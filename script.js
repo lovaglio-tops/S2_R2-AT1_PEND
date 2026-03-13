@@ -29,6 +29,6 @@ btnAdicionar.addEventListener("click", () => {
         
         
 
-        inputTarefa.value = ""
+       
     }
 })
