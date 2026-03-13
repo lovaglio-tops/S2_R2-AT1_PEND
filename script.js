@@ -15,25 +15,19 @@ btnAdicionar.addEventListener("click", () => {
         mensagem.className = 'text-success fw-bold'
 
         let li = document.createElement("li")
-        let buttonLi = document.createElement("button")
+        
    
-        buttonLi.textContent = "Remover"
+        
 
         li.innerText = nomeArmazenado
 
         
-        li.appendChild(buttonLi)
+        
 
         let lista = document.getElementById("listaTarefas")
         lista.appendChild(li)
         
         
-
-        
-        buttonLi.addEventListener("click", () => {
-            li.remove()
-            mensagem.innerText=""
-        })
 
         inputTarefa.value = ""
     }
