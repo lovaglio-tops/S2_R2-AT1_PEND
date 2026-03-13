@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.25rem;
+}
+
+button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0, 6rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0, 25rem;
+    border: blue;
+    cursor: pointer;
+}
+
+ input [type="text"],
+ input [type="number"] {
+    border: 1px solid #aaa;
+    border-radius: 0, 25rem;
+}
+
+ input [type="checbox"] {
+    width: auto;
+    margin-right: 0.25rem;
+
+}
